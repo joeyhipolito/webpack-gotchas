@@ -65,5 +65,12 @@ That is possible, because you can render the view server side before sending it 
 
 **So what?**
 
-This is possible using Webpack and even better, in webpack, it's so clever that it generates **common chunks** (these are source files that are shared among views or entry points ), and this is their concept of **code-splitting**. That is not all, but you should get the point of Webpack as a bundler.
+This is possible in client-side too using Webpack and even better, in webpack, it's so clever that it generates **common chunks** (these are source files that are shared among views or entry points ), and this is their concept of **code-splitting**. That is not all, but you should get the point of Webpack as a bundler.
 
+####Still not getting my point?
+
+If you are not satisfied with my explanation, you should watch [How Instagram Works](http://youtu.be/VkTCL6Nqm6Y). by [@petehunt](https://github.com/petehunt)
+
+####If I have mistakes
+
+If I have mistakes in my description, in my explanation, or if you have a better one, just submit an issue, I won't mind, really.
