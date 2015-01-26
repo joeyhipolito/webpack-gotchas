@@ -13,13 +13,13 @@ If you are coming from browserify or require.js, you probably know what are modu
 
 **References**
 
-(What is Webpack?)[http://webpack.github.io/docs/what-is-webpack.html]
+[What is Webpack?](http://webpack.github.io/docs/what-is-webpack.html)
 
 **If you are stupid**
 
 If you are stupid just like me and cannot make sense of what you have just read on the online documentation of webpack. The following might help you, these are real life gotchas that you probably have encountered before.
 
-###Gotcha no. 1 (what webpack does?)
+###Gotcha no. 1 (what does Webpack do?)
 
 **The Problem:**
 
@@ -57,7 +57,7 @@ Like so:
 
     $this->view->render(array('js' => $js, 'css'=>$css), 'home');
 
-That is a gist from a little php framework when I was in 1st year college, but I suppose you get the point. **You require a dependency on demand**.
+That is a gist from a little php framework I developed when I was in 1st year college, but I suppose you get the point. **You require a dependency on demand**.
 
 You have `rendered` the html page that would only have the dependency you declared for a specific view. (wise?). It's just templating.
 
